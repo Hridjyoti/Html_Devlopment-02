@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+p h1 {
+    font-family: "Montserrant";
+}
+
+.nav_links {
+    font-weight: 500;
+    font-size: 15px;
+    text-decoration: none;
+    list-style: none;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 15px 10%;
+    background-color: aqua;
+}
+
+.logo {
+    display: flex;
+    margin-left: 400px;
+    justify-content: center;
+    cursor: pointer;
+    color: whitesmoke;
+    margin-right: auto;
+}
+
+.nav_links {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav_links option {
+    padding-right: 30px;
+}
+
+.menu-bar {
+    display: inline-flex;
+    list-style: none;
+}
+
+.menu-bar ul li {
+    width: 100px;
+    height: 35px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.active .menu-bar ul li {
+    border-radius: 3px;
+}
+
+.menu-bar {
+    margin-right: 2px;
+}
+
+.sub-menu {
+    display: none;
+    background-color: wheat;
+    color: #000;
+    border-radius: 10px;
+}
+
+.menu-bar ul li:hover .sub-menu {
+    display: block;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: -5px;
+}
+
+.menu-bar ul li:hover .sub-menu ul {
+    display: block;
+    margin: 10px;
+}
+
+.menu-bar ul li:hover .sub-menu ul li {
+    margin: 10px;
+    padding: 10px;
+    border-bottom: 1px dotted #000;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+
+.menu-bar ul li:hover .sub-menu ul li:last-child {
+    border-bottom: none;
+}
+
+.op {
+    text-decoration: none;
+    color: #000;
+}
+
+footer {
+    background-color: aqua;
+}
+
+.foot {
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-left: 40px;
+}
+
+.india {
+    margin-left: 55px;
+    height: 60px;
+}
+
+body {
+    background-color: #fefee2;
+}
+
+p {
+    font-style: "montserrat";
+}
